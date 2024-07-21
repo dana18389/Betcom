@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Betcom: Your trusted partner for success in the Syrian market. Our team provides tailored solutions in feasibility studies, finance, legal, marketing, banking, statistical analysis, and engineering.">
+    <title>Betcom: Your Trusted Partner for Success in the Syrian Market</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styles here... */
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="logo.png" alt="Betcom Logo" width="150">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#market">Syrian Market</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Unlock Growth in the Syrian Market with Betcom's Expert Services</h1>
+            <p>Your trusted partner for navigating the Syrian business landscape.</p>
+            <button class="cta-button">Schedule a Free Consultation</button>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="feasibility-icon.png" alt="Feasibility Studies">
+                <h3>Feasibility Studies</h3>
+                <p>Maximize your investment with our comprehensive feasibility studies...</p>
+            </div>
+            <!-- Repeat for other services... -->
+        </div>
+    </section>
+
+    <section class="market" id="market">
+        <div class="container">
+            <h2>Syrian Market Focus</h2>
+            <p>Betcom has deep understanding and expertise in the Syrian market...</p>
+            <blockquote>
+                "Betcom helped us transform our business in Syria. Their expertise is unmatched." - Satisfied Client
+            </blockquote>
+            <!-- Add more testimonials... -->
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Grow Your Business in Syria?</h2>
+            <button class="cta-button">Schedule a Free Consultation</button>
+            <button class="cta-button secondary">Get a Quote</button>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Betcom. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <div class="social">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <!-- Add other social icons... -->
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add JavaScript for interactivity...
+    </script>
+</body>
+
+</html>
