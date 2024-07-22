@@ -1,0 +1,29 @@
+├── public
+│   ├── assets
+│   │   ├── img
+│   │   │   └── logo.png
+│   │   └── scripts
+│   │       └── app.js
+│   ├── styles
+│   │   ├── main.css
+│   │   └── components
+│   │       └── header.css
+│   ├── index.html
+│   ├── pages
+│   │   ├── about.html
+│   │   ├── services.html
+│   │   ├── contact.html
+│   │   └── blog.html
+│   └── scripts
+│       └── main.js
+├── server
+│   ├── app.js
+│   ├── routes
+│   │   ├── index.js
+│   │   ├── about.js
+│   │   ├── services.js
+│   │   ├── contact.js
+│   │   └── blog.js
+│   └── config
+│       └── database.js
+└── gulpfile.js
